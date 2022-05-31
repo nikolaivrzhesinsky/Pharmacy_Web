@@ -91,7 +91,7 @@
             </div>
         </div>
     </section>
-    <section id="interrup" class="parallax-container" data-position="bottom center" data-parallax="scroll" data-speed="0.2" data-image-src="img/main-bg1.jpg"></section>
+    <section id="interrup" class="parallax-container" data-position="bottom center" data-parallax="scroll" data-speed="0.2" data-image-src="/static/img/main-bg1.jpg"></section>
     <section id="reviews">
         <div class="container">
             <div class="col">
