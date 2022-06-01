@@ -1,2 +1,2 @@
 # Pharmacy_Web
- Spring Java Mysql Html/Css
+ Боги бэкенда и плебеи-верстальщики
