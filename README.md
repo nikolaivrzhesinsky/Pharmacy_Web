@@ -1,2 +1,2 @@
 # Pharmacy_Web
- Боги бэкенда и плебеи-верстальщики
+Just Nikolai. Just lamer.
