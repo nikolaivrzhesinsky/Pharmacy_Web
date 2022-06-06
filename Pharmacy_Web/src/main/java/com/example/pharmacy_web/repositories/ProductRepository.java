@@ -13,5 +13,6 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
     List<Product> findByTitleAndCity(String title, String city);
     @Query("select p from Product p where p.title = ?1 or p.city = ?2")
     List<Product> findByTitleOrCity(String title, String city);
+    @Query("select p from Product p where p.city = ?1")
     List<Product> findByCity(String city);
 }

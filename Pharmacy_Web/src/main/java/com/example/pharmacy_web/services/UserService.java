@@ -48,7 +48,6 @@ public class UserService {
     public boolean activateUser(String code) {
         log.info("Activate block is working");
         User user = userRepository.findByActivationCode(code);
-
         if (user == null) {
             return false;
         }

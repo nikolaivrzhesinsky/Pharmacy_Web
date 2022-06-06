@@ -17,7 +17,7 @@ public class Purchase {
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
+    private String activationCode;
     private LocalDateTime dateOfPurchase;
 
     @PrePersist
@@ -30,12 +30,6 @@ public class Purchase {
     @ManyToOne(cascade = CascadeType.REFRESH,fetch = FetchType.LAZY)
     @JoinColumn(name="product_id")
     private Product product;
-
-    ;
-
-
-
-
 
 
     @Override

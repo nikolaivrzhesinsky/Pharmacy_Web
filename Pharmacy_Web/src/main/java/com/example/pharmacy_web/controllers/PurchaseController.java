@@ -1,5 +1,6 @@
 package com.example.pharmacy_web.controllers;
 
+import com.example.pharmacy_web.models.User;
 import com.example.pharmacy_web.services.ProductService;
 import com.example.pharmacy_web.services.PurchaseService;
 import lombok.RequiredArgsConstructor;
@@ -19,9 +20,9 @@ public class PurchaseController {
 
     @GetMapping("/confirm payment/{id}")
     public String paymentConfirm(Principal principal, @PathVariable Long id, Model model){
-
         model.addAttribute("product", productService.getProductById(id));
         model.addAttribute("user", productService.getUserByPrincipal(principal));
+        model.addAttribute("purchase",purchaseService.createPurchase(id,principal));
 
         return "confirmPayment";
     }
