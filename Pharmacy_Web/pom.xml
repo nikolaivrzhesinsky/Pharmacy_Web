@@ -11,8 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>buysell</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>com.example.buysell</name>
-    <description>Clone Avito</description>
+    <name>com.example.pharmacy_web</name>
+    <description>Web_Dev</description>
     <properties>
         <java.version>11</java.version>
     </properties>
