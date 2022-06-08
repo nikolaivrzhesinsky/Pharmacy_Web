@@ -26,7 +26,7 @@ public class UserService {
     public boolean createUser(User user) {
         String email = user.getEmail();
         if (userRepository.findByEmail(email) != null) return false;
-        user.setActive(false);
+        user.setActive(true);
         user.setPassword(passwordEncoder.encode(user.getPassword()));
         user.getRoles().add(Role.ROLE_USER);
         user.setBalance(1000);
@@ -40,7 +40,7 @@ public class UserService {
                     user.getUsername(),
                     user.getActivationCode()
             );
-            mailSender.sendEmail(user.getEmail(), "Activation code", message);
+            //mailSender.sendEmail(user.getEmail(), "Activation code", message);
         }
         log.info("Saving new User with email: {}", email);
         userRepository.save(user);
