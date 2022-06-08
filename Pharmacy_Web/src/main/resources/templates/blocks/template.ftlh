@@ -22,7 +22,7 @@
             </a>
 
             <a href="/products">
-                <span class="navbar-brand mb-0 h1">discount products 3</span>
+                <span class="navbar-brand mb-0 h1">discount products</span>
             </a>
             <#if user.email??>
                 <div class="dropdown text-end">
