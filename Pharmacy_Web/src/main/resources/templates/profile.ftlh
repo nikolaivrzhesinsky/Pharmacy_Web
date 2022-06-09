@@ -51,6 +51,11 @@
                     Balance
                 </a><br>
 
+                <a class="btn btn-dark mb-3" style="text-align: center;"
+                   href="/my purchases">
+                    Purchases
+                </a><br>
+
                 <#if user.isAdmin()>
                 <a class="btn btn-dark mb-3" style="text-align: center;"
                    href="/my/products">

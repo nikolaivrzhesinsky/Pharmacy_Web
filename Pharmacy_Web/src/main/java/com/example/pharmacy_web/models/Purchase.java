@@ -19,6 +19,7 @@ public class Purchase {
     private Long id;
     private String activationCode;
     private LocalDateTime dateOfPurchase;
+    private boolean status;
 
     @PrePersist
     private void onCreate() { dateOfPurchase = LocalDateTime.now(); }
