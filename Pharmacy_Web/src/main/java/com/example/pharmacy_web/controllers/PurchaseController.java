@@ -28,11 +28,11 @@ public class PurchaseController {
         return "confirmPayment";
     }
 
-    @GetMapping("/my purchases")
+    @GetMapping("/my-purchases")
     public String paymentConfirm(Principal principal, Model model){
         User user= productService.getUserByPrincipal(principal);
         model.addAttribute("user",user);
         model.addAttribute("purchases", purchaseService.purchaseList(principal));
-        return "my_purchases";
+        return "my-purchases";
     }
 }

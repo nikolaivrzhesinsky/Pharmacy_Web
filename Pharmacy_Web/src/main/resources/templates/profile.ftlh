@@ -18,10 +18,10 @@
                 <br>
                 <br>
                 <#if user.isAdmin()>
-                    <a class="btn btn-dark mb-3" style="text-align: center; width: 100%"
+                    <a class="btn btn-dark mb-3" style="text-align: center;"
                        href="/admin">
                         Панель администратора
-                    </a><br>
+                    </a>
                 </#if>
                 <a class="btn btn-dark mt-3 mb-3" style="text-align: center; width: 170px; display: block; margin: 0 auto;"
                    data-toggle="collapse" href="#collapseExample" role="button"
@@ -52,7 +52,7 @@
                 </a><br>
 
                 <a class="btn btn-dark mb-3" style="text-align: center;"
-                   href="/my purchases">
+                   href="/my-purchases">
                     Purchases
                 </a><br>
 

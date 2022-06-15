@@ -1,9 +1,28 @@
-.product:hover {
-    transition: 0.5s;
-    transform: scale(1.02);
+.product {
+    transform: scale(1);
+    transition: all .7s;
 }
-
+.product:hover {
+    transform: scale(1.02);
+    transition: all .7s;
+}
 .product-link {
     color: #000 !important;
-    text-decoration: none
+    text-decoration: none;
+}
+.product-link:hover {
+    text-decoration: none !important;
+}
+.card {
+    background-color: #fff !important;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.cards .product img{
+    max-height: 240px;
+    width: auto;
+    margin: 0 auto;
 }
