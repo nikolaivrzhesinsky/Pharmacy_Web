@@ -40,7 +40,7 @@ public class UserService {
                     user.getUsername(),
                     user.getActivationCode()
             );
-            //mailSender.sendEmail(user.getEmail(), "Activation code", message);
+            mailSender.sendEmail(user.getEmail(), "Activation code", message);
         }
         log.info("Saving new User with email: {}", email);
         userRepository.save(user);

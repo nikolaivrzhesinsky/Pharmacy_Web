@@ -19,4 +19,9 @@ public class MainController {
         model.addAttribute("user", userService.getUserByPrincipal(principal));
         return "main";
     }
+
+    @GetMapping("/resume")
+    public  String showResume(){
+        return "resume";
+    }
 }
