@@ -69,7 +69,6 @@
                     </button>
                 </form>
             </div>
-            </div>
         </div>
     </div>
 </@t.template>
