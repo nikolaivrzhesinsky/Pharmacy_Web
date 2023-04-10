@@ -49,8 +49,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-6 offset-3">
-                        <p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Atque neque assumenda excepturi soluta odit. Natus mollitia eligendi, architecto quis perspiciatis deserunt! Quibusdam soluta hic iure consequuntur itaque ipsum ab. Nesciunt.</p>
-                        <a href="#" class="offer">Try it!</a>
+                        <p>At Pharmacy Lab, we believe that being a local independent pharmacy means providing our patients with medical and drug services tailored to their needs. Order the necessary medicines and try our loyalty system</p>
+                        <a href="/products" class="offer">Try it!</a>
                     </div>
                 </div>
             </div>
@@ -66,7 +66,7 @@
                     <div class="ticket">
                         <h4>NHS prescriptions, delivered to your door, for free</h4>
                         <p>Taking care of your NHS prescriptions. Order your medicine, get reminders and have it delivered for free. To your home, your family or friends.</p>
-                        <a href="#" class="trigger">Sign up for free</a>
+                        <a href="/login" class="trigger">Sign up for free</a>
                     </div>
                 </div>
                 <div class="col-5">
@@ -91,88 +91,7 @@
             </div>
         </div>
     </section>
-    <section id="interrup" class="parallax-container" data-position="bottom center" data-parallax="scroll" data-speed="0.2" data-image-src="/static/img/main-bg1.jpg"></section>
-    <section id="reviews">
-        <div class="container">
-            <div class="col">
-                <h3>Our reviews</h3>
-            </div>
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="/static/img/main-bg1.jpg" alt="">
-                        <div class="descr">
-                            <p>Order your medicine, get reminders and have it delivered for free.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="/static/img/main-bg1.jpg" alt="">
-                        <div class="descr">
-                            <p>Order your medicine, get reminders and have it delivered for free.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="/static/img/main-bg1.jpg" alt="">
-                        <div class="descr">
-                            <p>Order your medicine, get reminders and have it delivered for free.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="/static/img/main-bg1.jpg" alt="">
-                        <div class="descr">
-                            <p>Order your medicine, get reminders and have it delivered for free.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="/static/img/main-bg1.jpg" alt="">
-                        <div class="descr">
-                            <p>Order your medicine, get reminders and have it delivered for free.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="/static/img/main-bg1.jpg" alt="">
-                        <div class="descr">
-                            <p>Order your medicine, get reminders and have it delivered for free.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="/static/img/main-bg1.jpg" alt="">
-                        <div class="descr">
-                            <p>Order your medicine, get reminders and have it delivered for free.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="/static/img/main-bg1.jpg" alt="">
-                        <div class="descr">
-                            <p>Order your medicine, get reminders and have it delivered for free.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card">
-                        <img src="/static/img/main-bg1.jpg" alt="">
-                        <div class="descr">
-                            <p>Order your medicine, get reminders and have it delivered for free.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <script src="/static/js/libs.min.js" defer></script>
     <script src="/static/js/common.js" defer></script>

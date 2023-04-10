@@ -33,7 +33,7 @@ public class ProductService {
             return productRepository.findByTitle(title);
         }
         else if(city!=null && !city.equals("")){
-            log.info("ыполнился 3");
+            log.info("Выполнился 3");
             return productRepository.findByCity(city);
         }
 

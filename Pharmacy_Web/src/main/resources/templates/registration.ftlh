@@ -24,7 +24,9 @@
                         <input type="password" class="form-control" id="password" required name="password">
                     </div>
                     <input type="hidden" name="_csrf" value="${_csrf.token}">
-                    <button type="submit" style="width: 100%" class="btn btn-dark">Зарегистрироваться</button>
+                    <div class="form-group text-center">
+                        <button type="submit" style="padding: .375rem 1.75rem;" class="btn btn-dark">Зарегистрироваться</button>
+                    </div>
                 </form>
             </div>
         </div>

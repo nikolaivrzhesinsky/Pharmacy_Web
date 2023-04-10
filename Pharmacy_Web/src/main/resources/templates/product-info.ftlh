@@ -1,6 +1,6 @@
 <#import "blocks/template.ftlh" as t>
 <@t.template user>
-    <div class="container">
+    <div class="container" style="margin-top: 100px;">
         <div class="row">
             <div class="col-6 offset-3">
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -45,9 +45,11 @@
 
                 <form action="/product/buy/${product.id}" method="get">
                     <input type="hidden" name="_csrf" value="${_csrf.token}"/>
-                    <button type="submit" style="width: 100%" class="btn btn-dark">
-                        ${product.price} ₽
-                    </button>
+                    <div class="form-group text-center">
+                        <button type="submit" style="padding: .375rem 1.75rem;" class="btn btn-dark">
+                            Купить за ${product.price} ₽
+                        </button>
+                    </div>
                 </form>
 
                 <hr>

@@ -22,7 +22,9 @@
                         </div>
                     </div>
                     <input type="hidden" name="_csrf" value="${_csrf.token}">
-                    <button type="submit" style="width: 100%" class="btn btn-dark">Войти</button>
+                    <div class="form-group text-center">
+                        <button type="submit" style="padding: .375rem 1.75rem;" class="btn btn-dark">Войти</button>
+                    </div>
                 </form>
                 <br>
                 <h2>Нет аккаунта Pharmacy web? <a href="/registration">Зарегистрируйся!</a></h2>

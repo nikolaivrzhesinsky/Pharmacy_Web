@@ -4,7 +4,6 @@
         <div class="row">
             <div class="col-6 offset-3">
                 <br>
-                <h1 style="text-align: center">Discount products</h1>
                 <form method="get" action="/products">
                     <div class="form-row justify-content-center">
                         <#--            <div class="form-group col-md-2">-->
@@ -30,7 +29,7 @@
                             <input type="text" name="searchWord" <#if searchWord??>value="${searchWord}"</#if> class="form-control"
                                    id="searchWord">
                         </div>
-                        <button style="padding: 15px 45px;" type="submit" class="btn btn-dark">Найти</button>
+                        <button style="padding: .375rem 1.75rem;" type="submit" class="btn btn-dark">Найти</button>
                     </div>
                 </form>
             </div>
